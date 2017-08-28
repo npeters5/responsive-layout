@@ -19,7 +19,7 @@ nav > ul {
   list-style: none;
   padding-left: 0;
   text-align: center;
-  font-weight: 650;
+  font-weight: 700;
   text-transform: uppercase;
   background-color: #fafafa;
 }
@@ -115,12 +115,12 @@ footer h2 {
   .responsive-layout-profile img {
     width: 90%;
   }
-  .portfolio-wrap {
+  .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .portfolio-wrap figure {
+  .wrapper figure {
     display: flex;
     flex-direction: column;
     max-width: calc(50% - 2em);
@@ -178,7 +178,7 @@ footer h2 {
     margin-right: 2em;
   }
 
-  .portfolio-wrap figure {
+  .wrapper figure {
     max-width: calc(33.3% - 2em);
   }
 }
